@@ -1,11 +1,28 @@
 body{
     font-family: Georgia, serif;
+    color: aquamarine;
+}
+body:hover{
+    color: pink;
 }
 
-h1{
-    font-size: 30px;
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: blueviolet;
+}
+.title:hover{
+    color: pink;
 }
 
-p{
-    font-size: 20px;
+
+.object1{
+    font-size: 50px;
 }
+
+.centered-wrapper{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+  }
